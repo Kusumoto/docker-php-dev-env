@@ -4,7 +4,6 @@
 - PHP 7.0
 - MySQLi Extension
 - PDO Extension
-- MongoClient Extension
 - xdebug Extension
 
 ### How to use
