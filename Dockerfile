@@ -1,5 +1,6 @@
 FROM php:5.6-apache
 # Install modules
+# PHP 5.6.25
 RUN apt-get update && apt-get install -y --force-yes \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
