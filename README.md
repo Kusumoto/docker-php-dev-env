@@ -1,7 +1,7 @@
 # Docker developing environment for PHP Developer
 ### Images Contain
 - Apache Web Server 2.4.10
-- PHP 7.0
+- PHP 7.1
 - MySQLi Extension
 - PDO Extension
 - xdebug Extension
