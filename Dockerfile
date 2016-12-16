@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y --force-yes \
         libpq-dev \
         libmemcached-dev \
         libicu-dev \
-    && docker-php-ext-install iconv mcrypt mysql mysqli mbstring intl calendar libzip \
+    && docker-php-ext-install iconv mcrypt mysql mysqli mbstring intl calendar zip \
     && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
     && docker-php-ext-install gd \
     && pecl install mongo \
