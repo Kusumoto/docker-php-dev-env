@@ -1,5 +1,5 @@
 FROM php:7.1-apache
-# PHP 7.1.0
+# PHP 7.1.5
 # Install modules
 RUN apt-get update && apt-get install -y --force-yes \
         libfreetype6-dev \
